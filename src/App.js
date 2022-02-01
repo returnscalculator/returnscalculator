@@ -3,7 +3,7 @@ import './App.css';
 import Calculator from './calculatorForm';
 import Navigationbar from './Navbar';
 import RD from './Rd';
-import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Grid from "./buttons";
 
 function App() {
