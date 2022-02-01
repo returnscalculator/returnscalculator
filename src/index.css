@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(247, 247, 247);
+  font-family: 'Rubik', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  width: 65%;
+  margin: auto;
+  color: #005cac;
+  font-size: 1.5rem;
+  justify-content: center;
+  }
+
+  
+  
+  .cardgrid {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    justify-content: center;
+    width: 60%;
+    display: grid;
+    grid-gap : 3rem;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Rubik', sans-serif;
+
+    
+  }
+
+  .cardbutton {
+    padding: 2rem;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+    width: 100%;
+    height : 12rem;
+    border-radius : 2rem;
+  }
+  
+  .cardbutton:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+  }
+  .image{
+    width: 4rem;
+    height: 4rem;
+
+  }
+
+  .labeltext{
+    margin-top: 0.5rem;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+
+
+  @media only screen and (max-width: 480px) {
+    .title {
+      width: 100%;
+      color: #005cac;
+      font-size: 1.5rem;
+      }
+
+    .cardgrid {
+      margin: auto;
+      width: 80%;
+      display: grid;
+      grid-gap : 3rem;
+      padding: 20px;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      font-family: 'Rubik', sans-serif;
+  
+      
+    }
+
+    .cardbutton {
+      box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+      transition: 0.3s;
+      width: 100%;
+      height : 12rem;
+      border-radius : 2rem;
+    }
+    
+    .cardbutton:hover {
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .title {
+      width: 65%;
+      color: #005cac;
+      font-size: 1.5rem;
+      }
+
+    .cardgrid {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      width: 70%;
+      display: grid;
+      grid-gap : 3rem;
+      padding: 20px;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      font-family: 'Rubik', sans-serif;
+  
+      
+    }
+
+    .cardbutton {
+      box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+      transition: 0.3s;
+      width: 100%;
+      height : 12rem;
+      border-radius : 2rem;
+    }
+    
+    .cardbutton:hover {
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    }
+  }
+
