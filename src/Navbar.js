@@ -20,11 +20,13 @@ const Navigationbar = () => {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link href="/mf">Mutual Funds Returns</Nav.Link>
+              <Nav.Link href="/mf">Mutual Funds Returns Calculator</Nav.Link>
+              <Nav.Link href="/stocks">Stock returns Calculator</Nav.Link>
               <Nav.Link href="/lumpsum">Lumpsum Calculator</Nav.Link>
               <Nav.Link href="/sip">SIP Calculator</Nav.Link>
               <Nav.Link href="/rd">RD Calculator</Nav.Link>
               <Nav.Link href="/fd">FD Calculator</Nav.Link>
+              <Nav.Link href="/about">About Us</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
