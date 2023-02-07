@@ -12,6 +12,12 @@ const Footer = () =>{
                     <ul>
                         <li><a href="/About">About us</a></li>
                         <li><a href="/help">Help</a></li>
+                        <li><a href="/mf">Mutual Funds Calculator</a></li>
+                        <li><a href="//sip">SIP Calculator</a></li>
+                        <li><a href="/stocks">Fixed Deposit Calculator</a></li>
+                        <li><a href="/lumpsum">Lumpsum investment Calculator</a></li>
+                        <li><a href="/rd">Recurring Deposit Calculator</a></li>
+                        
                     </ul>
                 </div>
              <div className="footer-col">

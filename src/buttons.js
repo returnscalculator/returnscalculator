@@ -7,12 +7,14 @@ import "./index.css";
 const Grid = () => {
   return (
     <div>
-      <Card body className="light-font">
+      <div className="content-centre">
+        <p>
         Returns Calculator tool helps you calculate the returns or matured value
         of investments. This website offers various types of calculators which
         can be used to calculate stock returns, Mutual funds return, SIP returns
-        and lumpsum investment returns, etc.
-      </Card>
+        and lumpsum investment returns.
+        </p>
+        </div>
       <div className="cardgrid">
         <Link to="/mf" className="labeltext">
           <div className="cardbutton">
